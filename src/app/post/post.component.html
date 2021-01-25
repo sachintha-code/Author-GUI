@@ -1,0 +1,32 @@
+<div class="jumbotron">
+    <h1 class="display-4 text-center">Post Details</h1>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <app-post-form></app-post-form>
+    </div>
+    <div class="col-md-6">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Book Title</th>
+                    <th>Image Url</th>
+                    <th>Author Name</th>
+                    <th>Created Time</th>
+                    <th>Total likes</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of service.list">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
